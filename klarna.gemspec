@@ -3,12 +3,12 @@ $:.push File.expand_path('../lib', __FILE__)
 require 'klarna/version'
 
 Gem::Specification.new do |s|
-  s.name        = "klarna"
+  s.name        = "klarna-xmlrpc"
   s.version     = Klarna::VERSION.dup
   s.platform    = Gem::Platform::RUBY
-  s.authors     = ["Jonas Grimfelt"]
+  s.authors     = ["Jonas Grimfelt","Serg Tyatin"]
   s.email       = ["jonas@merchii.com"]
-  s.homepage    = "http://github.com/merchii/#{s.name}"
+  s.homepage    = "http://github.com/2rba/klarna-ruby"
   s.summary     = %{A Ruby wrapper for Klarna/Kreditor XML-RPC API.}
   s.description = s.summary
 
